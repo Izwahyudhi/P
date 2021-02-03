@@ -1,12 +1,12 @@
 #!/bin/bash
 
-export KERNELNAME=_-Zeus-_
+export KERNELNAME=Zeus_Kernel
 
-export LOCALVERSION=4646
+export LOCALVERSION=EAS
 
-export KBUILD_BUILD_USER=
+export KBUILD_BUILD_USER=Izwahyudhi
 
-export KBUILD_BUILD_HOST=Izwahyudhi@#Funproject
+export KBUILD_BUILD_HOST=#Funproject
 
 export TOOLCHAIN=clang
 
@@ -16,7 +16,7 @@ source helper
 
 gen_toolchain
 
-send_msg "⏳ Start building ${KERNELNAME} ${LOCALVERSION} for ${DEVICES}..."
+send_msg "⏳ Sabar jink ${KERNELNAME} ${LOCALVERSION} for ${DEVICES}..."
 
 START=$(date +"%s")
 
