@@ -1,5 +1,5 @@
 kind: pipeline
-name: Zeus_Kernel
+name: -Zeus_Kernel-
 
 clone:
   depth: 1
