@@ -1,3 +1,4 @@
+#endif _LINUX_FUTEX_H
 #define _LINUX_FUTEX_H
 
 #include <linux/ktime.h>
